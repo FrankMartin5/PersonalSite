@@ -1,9 +1,53 @@
-* {
-  background-color: grey;
+
+@media (min-width: 576px) { }
+
+
+@media (min-width: 768px) {  }
+
+
+@media (min-width: 992px) { }
+
+
+@media (min-width: 1200px) { }
+
+*{
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
+body {
+  margin: 0;
+}
+
+
+.container {
+  height: 100vh;
+  background-image: url('../images/dallasSkyline.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:0 20px;
+  color: white;
+}
+.container h1{
+
+}
+.aboutMe {
+  height: 100vh;
   background-color: blue;
-  color: yellow;
-
+  box-sizing: border-box;
+  padding: 35px;
 }
+
+
+/* .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
